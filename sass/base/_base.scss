@@ -1,0 +1,50 @@
+//COLORS
+
+//PRIMARY
+
+$erd: hsl(0, 78%, 62%);
+$cyan: hsl(180, 62%, 55%);
+$orange: hsl(34, 97%, 64%);
+$blue: hsl(212, 86%, 64%);
+
+//NEURTRAL
+
+$very-dark-blue: hsl(234, 12%, 34%);
+$greyish-blue: hsl(229, 6%, 66%);
+$very-light-gray: hsl(0, 0%, 98%);
+
+//RESPONSIVE BREAKPOINTS
+
+$bp-large-desktop: 90em; //1440px
+$bp-desktop: 56.25em; //900px
+$bp-tablet: 37.5em; //700px
+
+//RESETS & RELATIVE FONT SIZING
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 50%;
+
+    @media only screen and (min-width: $bp-tablet) {
+        font-size: 56.25%;
+    }
+
+    @media only screen and (min-width: $bp-desktop) {
+        font-size: 62.5%;
+    }
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+}
