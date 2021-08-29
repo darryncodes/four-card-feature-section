@@ -48,6 +48,8 @@ header {
   text-align: center;
   margin-bottom: 7rem;
   max-width: 36rem;
+  -webkit-animation: fadeInUp 1s ease 0s normal forwards 1;
+          animation: fadeInUp 1s ease 0s normal forwards 1;
 }
 
 @media only screen and (min-width: 37.5em) {
@@ -91,6 +93,8 @@ h3 {
   text-align: center;
   font-size: 1.4rem;
   margin: 5rem 0;
+  -webkit-animation: fadeInUp 3.5s ease 0s normal forwards 1;
+          animation: fadeInUp 3.5s ease 0s normal forwards 1;
 }
 
 .attribution__link {
@@ -99,6 +103,56 @@ h3 {
 
 .attribution__link:hover {
   text-decoration: none;
+}
+
+@media only screen and (min-width: 37.5em) {
+  .attribution {
+    -webkit-animation: fadeInUp 2.5s ease 0s normal forwards 1;
+            animation: fadeInUp 2.5s ease 0s normal forwards 1;
+  }
+}
+
+@media only screen and (min-width: 68.75em) {
+  .attribution {
+    -webkit-animation: fadeInUp 3s ease 0s normal forwards 1;
+            animation: fadeInUp 3s ease 0s normal forwards 1;
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  66% {
+    opacity: 0;
+    -webkit-transform: translateY(5rem);
+            transform: translateY(5rem);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  66% {
+    opacity: 0;
+    -webkit-transform: translateY(5rem);
+            transform: translateY(5rem);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }
 
 main {
@@ -154,6 +208,8 @@ main {
 
 .card--supervisor {
   border-top: 3px solid #45d3d3;
+  -webkit-animation: fadeInUp 1.5s ease 0s normal forwards 1;
+          animation: fadeInUp 1.5s ease 0s normal forwards 1;
 }
 
 @media only screen and (min-width: 68.75em) {
@@ -165,8 +221,17 @@ main {
   }
 }
 
+@media only screen and (min-width: 68.75em) {
+  .card--supervisor {
+    -webkit-animation: fadeInUp 2s ease 0s normal forwards 1;
+            animation: fadeInUp 2s ease 0s normal forwards 1;
+  }
+}
+
 .card--team {
   border-top: 3px solid #ea5353;
+  -webkit-animation: fadeInUp 2s ease 0s normal forwards 1;
+          animation: fadeInUp 2s ease 0s normal forwards 1;
 }
 
 @media only screen and (min-width: 68.75em) {
@@ -175,8 +240,17 @@ main {
   }
 }
 
+@media only screen and (min-width: 37.5em) {
+  .card--team {
+    -webkit-animation: fadeInUp 1.5s ease 0s normal forwards 1;
+            animation: fadeInUp 1.5s ease 0s normal forwards 1;
+  }
+}
+
 .card--karma {
   border-top: 3px solid #fcaf4a;
+  -webkit-animation: fadeInUp 2.5s ease 0s normal forwards 1;
+          animation: fadeInUp 2.5s ease 0s normal forwards 1;
 }
 
 @media only screen and (min-width: 68.75em) {
@@ -185,8 +259,24 @@ main {
   }
 }
 
+@media only screen and (min-width: 37.5em) {
+  .card--karma {
+    -webkit-animation: fadeInUp 2s ease 0s normal forwards 1;
+            animation: fadeInUp 2s ease 0s normal forwards 1;
+  }
+}
+
+@media only screen and (min-width: 68.75em) {
+  .card--karma {
+    -webkit-animation: fadeInUp 2.5s ease 0s normal forwards 1;
+            animation: fadeInUp 2.5s ease 0s normal forwards 1;
+  }
+}
+
 .card--calculator {
   border-top: 3px solid #549ef2;
+  -webkit-animation: fadeInUp 3s ease 0s normal forwards 1;
+          animation: fadeInUp 3s ease 0s normal forwards 1;
 }
 
 @media only screen and (min-width: 68.75em) {
@@ -195,6 +285,20 @@ main {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
+  }
+}
+
+@media only screen and (min-width: 37.5em) {
+  .card--calculator {
+    -webkit-animation: fadeInUp 2s ease 0s normal forwards 1;
+            animation: fadeInUp 2s ease 0s normal forwards 1;
+  }
+}
+
+@media only screen and (min-width: 68.75em) {
+  .card--calculator {
+    -webkit-animation: fadeInUp 2s ease 0s normal forwards 1;
+            animation: fadeInUp 2s ease 0s normal forwards 1;
   }
 }
 

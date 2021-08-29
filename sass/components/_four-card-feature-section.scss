@@ -43,12 +43,24 @@ main {
             grid-area: columnOne;
             align-self: center;
         }
+
+        animation: fadeInUp 1.5s ease 0s normal forwards 1;
+
+        @media only screen and (min-width: $bp-large-desktop) {
+            animation: fadeInUp 2s ease 0s normal forwards 1;
+        }
     }
     &--team {
         border-top: 3px solid $red;
 
         @media only screen and (min-width: $bp-large-desktop) {
             grid-area: columnTwo;
+        }
+
+        animation: fadeInUp 2s ease 0s normal forwards 1;
+
+        @media only screen and (min-width: $bp-tablet) {
+            animation: fadeInUp 1.5s ease 0s normal forwards 1;
         }
     }
     &--karma {
@@ -57,6 +69,16 @@ main {
         @media only screen and (min-width: $bp-large-desktop) {
             grid-area: columnThree;
         }
+
+        animation: fadeInUp 2.5s ease 0s normal forwards 1;
+
+        @media only screen and (min-width: $bp-tablet) {
+            animation: fadeInUp 2s ease 0s normal forwards 1;
+        }
+
+        @media only screen and (min-width: $bp-large-desktop) {
+            animation: fadeInUp 2.5s ease 0s normal forwards 1;
+        }
     }
     &--calculator {
         border-top: 3px solid $blue;
@@ -64,6 +86,16 @@ main {
         @media only screen and (min-width: $bp-large-desktop) {
             grid-area: columnFour;
             align-self: center;
+        }
+
+        animation: fadeInUp 3s ease 0s normal forwards 1;
+
+        @media only screen and (min-width: $bp-tablet) {
+            animation: fadeInUp 2s ease 0s normal forwards 1;
+        }
+
+        @media only screen and (min-width: $bp-large-desktop) {
+            animation: fadeInUp 2s ease 0s normal forwards 1;
         }
     }
 

@@ -70,6 +70,8 @@ header {
     @media only screen and (min-width: $bp-desktop) {
         margin-bottom: 5rem;
     }
+
+    animation: fadeInUp 1s ease 0s normal forwards 1;
 }
 
 h1,
@@ -107,5 +109,15 @@ h3 {
         &:hover {
             text-decoration: none;
         }
+    }
+
+    animation: fadeInUp 3.5s ease 0s normal forwards 1;
+
+    @media only screen and (min-width: $bp-tablet) {
+        animation: fadeInUp 2.5s ease 0s normal forwards 1;
+    }
+
+    @media only screen and (min-width: $bp-large-desktop) {
+        animation: fadeInUp 3s ease 0s normal forwards 1;
     }
 }
