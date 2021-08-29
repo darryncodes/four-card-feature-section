@@ -27,4 +27,181 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #a3a5ae;
+  background-color: #fafafa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8rem 1rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 7rem;
+  max-width: 36rem;
+}
+
+@media only screen and (min-width: 37.5em) {
+  header {
+    margin-bottom: 6rem;
+    max-width: 50rem;
+  }
+}
+
+@media only screen and (min-width: 56.25em) {
+  header {
+    margin-bottom: 5rem;
+  }
+}
+
+h1,
+h2 {
+  font-size: 2.8rem;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+h2,
+h3 {
+  font-weight: 400;
+  color: #4c4e61;
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 5rem 0;
+}
+
+.attribution__link {
+  color: #4c4e61;
+}
+
+.attribution__link:hover {
+  text-decoration: none;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 3rem;
+}
+
+@media only screen and (min-width: 37.5em) {
+  main {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 68.75em) {
+  main {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: "columnOne columnTwo columnFour" "columnOne columnThree columnFour";
+    grid-gap: 4rem;
+  }
+}
+
+.card {
+  max-width: 32rem;
+  height: 22rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  -webkit-box-shadow: 0 21px 24px -17px rgba(76, 78, 97, 0.15);
+          box-shadow: 0 21px 24px -17px rgba(76, 78, 97, 0.15);
+  position: relative;
+}
+
+@media only screen and (min-width: 56.25em) {
+  .card {
+    max-width: 34rem;
+    height: 23rem;
+    padding: 3rem;
+  }
+}
+
+@media only screen and (min-width: 68.75em) {
+  .card {
+    max-width: 35rem;
+    height: 25rem;
+    padding: 3rem 4rem;
+  }
+}
+
+.card--supervisor {
+  border-top: 3px solid #45d3d3;
+}
+
+@media only screen and (min-width: 68.75em) {
+  .card--supervisor {
+    grid-area: columnOne;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+.card--team {
+  border-top: 3px solid #ea5353;
+}
+
+@media only screen and (min-width: 68.75em) {
+  .card--team {
+    grid-area: columnTwo;
+  }
+}
+
+.card--karma {
+  border-top: 3px solid #fcaf4a;
+}
+
+@media only screen and (min-width: 68.75em) {
+  .card--karma {
+    grid-area: columnThree;
+  }
+}
+
+.card--calculator {
+  border-top: 3px solid #549ef2;
+}
+
+@media only screen and (min-width: 68.75em) {
+  .card--calculator {
+    grid-area: columnFour;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+.card__icon {
+  width: 8rem;
+  height: 8rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
