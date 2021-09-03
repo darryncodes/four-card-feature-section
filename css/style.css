@@ -12,13 +12,11 @@ html {
           box-sizing: border-box;
   font-size: 50%;
 }
-
 @media only screen and (min-width: 37.5em) {
   html {
     font-size: 56.25%;
   }
 }
-
 @media only screen and (min-width: 56.25em) {
   html {
     font-size: 62.5%;
@@ -51,14 +49,12 @@ header {
   -webkit-animation: fadeInUp 1s ease 0s normal forwards 1;
           animation: fadeInUp 1s ease 0s normal forwards 1;
 }
-
 @media only screen and (min-width: 37.5em) {
   header {
     margin-bottom: 6rem;
     max-width: 50rem;
   }
 }
-
 @media only screen and (min-width: 56.25em) {
   header {
     margin-bottom: 5rem;
@@ -96,22 +92,18 @@ h3 {
   -webkit-animation: fadeInUp 3.5s ease 0s normal forwards 1;
           animation: fadeInUp 3.5s ease 0s normal forwards 1;
 }
-
 .attribution__link {
   color: #4c4e61;
 }
-
 .attribution__link:hover {
   text-decoration: none;
 }
-
 @media only screen and (min-width: 37.5em) {
   .attribution {
     -webkit-animation: fadeInUp 2.5s ease 0s normal forwards 1;
             animation: fadeInUp 2.5s ease 0s normal forwards 1;
   }
 }
-
 @media only screen and (min-width: 68.75em) {
   .attribution {
     -webkit-animation: fadeInUp 3s ease 0s normal forwards 1;
@@ -154,27 +146,20 @@ h3 {
             transform: translateY(0);
   }
 }
-
 main {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 3rem;
 }
-
 @media only screen and (min-width: 37.5em) {
   main {
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
-
 @media only screen and (min-width: 68.75em) {
   main {
-    -ms-grid-columns: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas: "columnOne columnTwo columnFour" "columnOne columnThree columnFour";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "columnOne columnTwo columnFour" "columnOne columnThree columnFour";
     grid-gap: 4rem;
   }
 }
@@ -189,7 +174,6 @@ main {
           box-shadow: 0 21px 24px -17px rgba(76, 78, 97, 0.15);
   position: relative;
 }
-
 @media only screen and (min-width: 56.25em) {
   .card {
     max-width: 34rem;
@@ -197,7 +181,6 @@ main {
     padding: 3rem;
   }
 }
-
 @media only screen and (min-width: 68.75em) {
   .card {
     max-width: 35rem;
@@ -205,103 +188,84 @@ main {
     padding: 3rem 4rem;
   }
 }
-
 .card--supervisor {
   border-top: 3px solid #45d3d3;
   -webkit-animation: fadeInUp 1.5s ease 0s normal forwards 1;
           animation: fadeInUp 1.5s ease 0s normal forwards 1;
 }
-
 @media only screen and (min-width: 68.75em) {
   .card--supervisor {
     grid-area: columnOne;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    align-self: center;
   }
 }
-
 @media only screen and (min-width: 68.75em) {
   .card--supervisor {
     -webkit-animation: fadeInUp 2s ease 0s normal forwards 1;
             animation: fadeInUp 2s ease 0s normal forwards 1;
   }
 }
-
 .card--team {
   border-top: 3px solid #ea5353;
   -webkit-animation: fadeInUp 2s ease 0s normal forwards 1;
           animation: fadeInUp 2s ease 0s normal forwards 1;
 }
-
 @media only screen and (min-width: 68.75em) {
   .card--team {
     grid-area: columnTwo;
   }
 }
-
 @media only screen and (min-width: 37.5em) {
   .card--team {
     -webkit-animation: fadeInUp 1.5s ease 0s normal forwards 1;
             animation: fadeInUp 1.5s ease 0s normal forwards 1;
   }
 }
-
 .card--karma {
   border-top: 3px solid #fcaf4a;
   -webkit-animation: fadeInUp 2.5s ease 0s normal forwards 1;
           animation: fadeInUp 2.5s ease 0s normal forwards 1;
 }
-
 @media only screen and (min-width: 68.75em) {
   .card--karma {
     grid-area: columnThree;
   }
 }
-
 @media only screen and (min-width: 37.5em) {
   .card--karma {
     -webkit-animation: fadeInUp 2s ease 0s normal forwards 1;
             animation: fadeInUp 2s ease 0s normal forwards 1;
   }
 }
-
 @media only screen and (min-width: 68.75em) {
   .card--karma {
     -webkit-animation: fadeInUp 2.5s ease 0s normal forwards 1;
             animation: fadeInUp 2.5s ease 0s normal forwards 1;
   }
 }
-
 .card--calculator {
   border-top: 3px solid #549ef2;
   -webkit-animation: fadeInUp 3s ease 0s normal forwards 1;
           animation: fadeInUp 3s ease 0s normal forwards 1;
 }
-
 @media only screen and (min-width: 68.75em) {
   .card--calculator {
     grid-area: columnFour;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    align-self: center;
   }
 }
-
 @media only screen and (min-width: 37.5em) {
   .card--calculator {
     -webkit-animation: fadeInUp 2s ease 0s normal forwards 1;
             animation: fadeInUp 2s ease 0s normal forwards 1;
   }
 }
-
 @media only screen and (min-width: 68.75em) {
   .card--calculator {
     -webkit-animation: fadeInUp 2s ease 0s normal forwards 1;
             animation: fadeInUp 2s ease 0s normal forwards 1;
   }
 }
-
 .card__icon {
   width: 8rem;
   height: 8rem;
