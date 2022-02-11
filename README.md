@@ -32,7 +32,6 @@ Users should be able to:
 
 -   [GitHub repo](https://github.com/darryncodes/four-card-feature-section)
 -   [Solution URL](https://darryncodes.github.io/four-card-feature-section/)
--   [Live Site URL](https://www.darryncodes.co.uk/pages/four-card-feature-section.html)
 
 ## My process
 
